@@ -1,1 +1,414 @@
-Hello World Test
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta name="description" content="">
+  <title>Chung-Nan Tsai</title>
+  <link rel="shortcut icon" href="images/tree-12c-194370/tree-12c-152-194370.png" />
+  <link href='/assets/css_s/bootstrap.min.css' rel='stylesheet'>
+  <link href='/assets/css_c/main_style.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800,900,100italic,100,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700,800,900,100italic,100,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+<LINK rel=stylesheet type=text/css  href="./jemdoc.css"><LINK rel="shortcut icon" href="rui.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script async defer src="buttons.js"></script>
+<script src="jquery.scrollUp.js"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+	
+<SCRIPT type=text/javascript>
+  
+var a = document.querySelector(".navbar-toggle");
+    $(".navbar-nav li a").on("click",function () {
+        a.click();
+    });
+
+	
+// Toggle Display of BibTeX
+function toggleBibtex(articleid) {
+  var bib = document.getElementById(articleid);
+  // Toggle 
+    if(bib.style.display == "none") {
+      var x = document.getElementsByClassName("blockcontent");
+      var i;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+      }
+      bib.style.display = "";
+    }
+    else {
+      bib.style.display = "none";
+    }
+
+}
+
+function showall(){  
+    var items = document.getElementsByClassName('coauthor');
+    if(document.getElementById("list_type").text == "Full list"){
+        document.getElementById("list_type").text = "Selected";
+        for (i = 0; i < items.length; ++i)
+            {
+                items[i].style.display = 'block';
+            }
+    }else{
+        document.getElementById("list_type").text = "Full list";
+        for (i = 0; i < items.length; ++i)
+            {
+                items[i].style.display = 'none';
+            }
+    }
+    
+}
+</SCRIPT>
+
+<script>
+$(function () {
+    $.scrollUp({
+        animation: 'fade',
+        scrollImg: {
+            active: true,
+            type: 'background',
+            src: 'imgs/top.png'
+        }
+    });
+});
+$('#scrollUpTheme').attr('href', 'image.css?1.1');
+$('.image-switch').addClass('active');
+
+</script>
+	
+	
+
+    <!-- Bootstrap & MDB
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+ -->
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    
+    <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="canonical" href="http://localhost:5500/">
+
+    <!-- <script src="/assets/js/theme.js"></script> -->
+    <script src="assets/js/theme.js"></script>
+    <!-- <script src="/assets/js/dark_mode.js"></script> -->
+    <script src="assets/js/dark_mode.js"></script>
+
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	
+	
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <div id='header' class ='bg'>
+    <div id='header-inner'>
+      <div id="author-avatar"></div>
+      <div class='header-text'>
+        <div class='header-text-name'>
+            Chung-Nan Tsai <span style="font-family:STFangsong; font-size:24pt"> </span>
+        </div>
+        <div class='header-text-email'>
+          <p>Data Scientist</p>
+          <p>Lam Research Japan</p>
+          <p>cnrogertsai@gmail.com</p>
+        </div>
+
+        <div class='header-text-items'>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='col-xs-1'>
+    </div>
+    <div class='col-xs-10'>
+      <div class='row'>
+           
+
+<p>I'm a second-year Ph.D. student in Computer Science at <a href="http://www.yale.edu/" target="_blank" rel="noopener noreferrer">Yale University</a>, where I am very fortunately advised by Prof. <a href="https://scholar.google.com/citations?user=YvjuUugAAAAJ" target="_blank" rel="noopener noreferrer">Mark Gerstein</a>. Previously, I got my master's from <a href="https://cpsc.yale.edu/" target="_blank" rel="noopener noreferrer">Yale CS</a> as well, advised by Prof. Dragomir Radev.
+My research lies in the intersection of <b>large language models</b> and applications in <b>biomedical data science</b>, with a view towards building AI scientists.
+</p>
+	      
+<ul>
+    <li>
+ <strong>Alignment:</strong> The goal of alignment is to steer already-capable models to do what we want them to do. 
+
+    </li>
+    <li>
+<strong>Autonomous Scientific Discovery:</strong> LLMs autonomously design, plan, and perform complex experiments empowered by tools such as internet and documentation search, code execution, and experimental automation.
+
+    </li>
+    <li>
+<strong>Code Generation:</strong> I aim to make programming more communicative, by creating models, methods, and datasets for producing code from language.
+    </li>
+</ul>
+
+<!-- 
+	      <p>My ultimate goal is to use AI to reduce some of the world’s worst inequities. Globally, the worst inequity is in the health and medical field. And my work is directed toward achieving this objective. </p>
+<br>
+ -->	
+<p>My research is supported by my advisor's Amazon Research Award.</p>
+
+
+
+I am looking for grads/undergrads to collaborate and actively engage in mentorship, so feel free to email me if you are starting in the field and are confused about publication expectations, PhD Admissions, etc.
+ <br>
+ <br>
+
+<!-- <a href="https://forms.gle/pxSzza4VgJrxmVfy6" target="_blank" rel="noopener noreferrer">drop me a line</a> -->
+
+	   
+<div>
+    <h2 id="papers"><font size="5" color="#0f4d92"><b>Work Experience</b></font></h2>
+    <p>I'm a second-year Ph.D. student in Computer Science at <a href="http://www.yale.edu/" target="_blank" rel="noopener noreferrer">Yale University</a>, where I am very fortunately advised by Prof. <a href="https://scholar.google.com/citations?user=YvjuUugAAAAJ" target="_blank" rel="noopener noreferrer">Mark Gerstein</a>. Previously, I got my master's from <a href="https://cpsc.yale.edu/" target="_blank" rel="noopener noreferrer">Yale CS</a> as well, advised by Prof. Dragomir Radev.
+        My research lies in the intersection of <b>large language models</b> and applications in <b>biomedical data science</b>, with a view towards building AI scientists.
+    </p>
+</div>
+
+
+
+
+
+
+<div class="post">
+  <article>
+    <div class="cv">
+          <h2 id="papers"><font size="5" color="#0f4d92"><b>Publications</b></font></h2>
+    <div>
+	
+
+
+
+
+
+
+
+
+		  
+		  <UL>
+    <LI>
+    <B style="color: #224b8d">Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science</B><BR>
+	   <B>Xiangru Tang</B>, Qiao Jin, Kunlun Zhu, Tongxin Yuan, Yichi Zhang, Wangchunshu Zhou, Meng Qu, Yilun Zhao, Jian Tang, Zhuosheng Zhang, Arman Cohan, Zhiyong Lu, Mark Gerstein
+<BR>
+      arXiv, 2024<BR>
+      [<a href="https://arxiv.org/abs/2402.04247">PDF</a>]
+      [<a href="javascript:toggleBibtex('sciagent_abs')" target=_self>Abstract</a>]
+      [<a href="javascript:toggleBibtex('sciagent_bib')" target=_self>Bib</a>]
+
+	<div id=sciagent_abs class=blockcontent style="DISPLAY: none">
+	    <table class=imgtable>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p style="FONT-SIZE: 16px">
+Intelligent agents powered by large language models (LLMs) have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, they also introduce novel vulnerabilities that demand careful consideration for safety. However, there exists a notable gap in the literature, as there has been no comprehensive exploration of these vulnerabilities. This position paper fills this gap by conducting a thorough examination of vulnerabilities in LLM-based agents within scientific domains, shedding light on potential risks associated with their misuse and emphasizing the need for safety measures. We begin by providing a comprehensive overview of the potential risks inherent to scientific LLM agents, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we delve into the origins of these vulnerabilities and provide a scoping review of the limited existing works. Based on our analysis, we propose a triadic framework involving human regulation, agent alignment, and an understanding of environmental feedback (agent regulation) to mitigate these identified risks. Furthermore, we highlight the limitations and challenges associated with safeguarding scientific agents and advocate for the development of improved models, robust benchmarks, and comprehensive regulations to address these issues effectively.
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id=sciagent_bib class=blockcontent style="DISPLAY: none">
+            <pre>
+@article{tang2024prioritizing,
+  title={Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science},
+  author={Tang, Xiangru and Jin, Qiao and Zhu, Kunlun and Yuan, Tongxin and Zhang, Yichi and Zhou, Wangchunshu and Qu, Meng and Zhao, Yilun and Tang, Jian and Zhang, Zhuosheng and others},
+  journal={arXiv preprint arXiv:2402.04247},
+  year={2024}
+}  </pre>
+       </div>
+    </LI>
+</UL>
+
+
+
+		  
+	
+
+
+
+		  
+
+
+<UL>
+    <LI>
+    <B style="color: #224b8d">
+
+Investigating Crowdsourcing Protocols for Evaluating the Factual Consistency of Summaries
+
+</B><BR>
+
+<B>Xiangru Tang</B>, Alexander Fabbri, Haoran Li, Ziming Mao, Griffin Adams, Borui Wang, Asli Celikyilmaz, Yashar Mehdad, Dragomir Radev
+
+<BR>
+     <B>NAACL 2022</B> <BR>
+      [<a href="https://aclanthology.org/2022.naacl-main.417/">PDF</a>]
+      [<a href="javascript:toggleBibtex('Investigating_abs')" target=_self>Abstract</a>]
+      [<a href="javascript:toggleBibtex('Investigating_bib')" target=_self>Bib</a>]
+	<div id=Investigating_abs class=blockcontent style="DISPLAY: none">
+	    <table class=imgtable>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p style="FONT-SIZE: 16px">
+Current pre-trained models applied for summarization are prone to factual inconsistencies that misrepresent the source text. Evaluating the factual consistency of summaries is thus necessary to develop better models. However, the human evaluation setup for evaluating factual consistency has not been standardized. To determine the factors that affect the reliability of the human evaluation, we crowdsource evaluations for factual consistency across state-of-the-art models on two news summarization datasets using the rating-based Likert Scale and ranking-based Best-Worst Scaling. Our analysis reveals that the ranking-based Best-Worst Scaling offers a more reliable measure of summary quality across datasets and that the reliability of Likert ratings highly depends on the target dataset and the evaluation design. To improve crowdsourcing reliability, we extend the scale of the Likert rating and present a scoring algorithm for Best-Worst Scaling that we call value learning. Our crowdsourcing guidelines will be publicly available to facilitate future work on factual consistency in summarization.
+			    </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id=Investigating_bib class=blockcontent style="DISPLAY: none">
+            <pre>
+@inproceedings{tang-etal-2022-investigating,
+    title = "Investigating Crowdsourcing Protocols for Evaluating the Factual Consistency of Summaries",
+    author = "Tang, Xiangru  and
+      Fabbri, Alexander  and
+      Li, Haoran  and
+      Mao, Ziming  and
+      Adams, Griffin  and
+      Wang, Borui  and
+      Celikyilmaz, Asli  and
+      Mehdad, Yashar  and
+      Radev, Dragomir",
+    editor = "Carpuat, Marine  and
+      de Marneffe, Marie-Catherine  and
+      Meza Ruiz, Ivan Vladimir",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.417",
+    doi = "10.18653/v1/2022.naacl-main.417",
+    pages = "5680--5692",
+}   </pre>
+       </div>
+    </LI>
+</UL>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+
+
+
+
+		  
+
+ <br>
+
+           </div>
+      </div>
+   </article>
+  </div>	  	  
+
+
+
+
+	      
+		      		  
+  
+<div class="post">
+  <article>
+    <div class="cv">
+          <h2 id="talks"><font size="5" color="#0f4d92"><b>Recent Talks</b></font></h2>
+          <div>
+ <strong>02/2024 </strong> Talk at <a href="https://medicine.yale.edu/event/inaugural-ai-in-medicine-symposium-at-ysm/" target="_blank" rel="noopener noreferrer">AI in Medicine Symposium</a> at Yale School of Medicine.
+
+ <br>
+ <strong>01/2024 </strong> Talk at PSB 2024 Workshop on <a href="https://www.ncbi.nlm.nih.gov/research/bionlp/psb2024" target="_blank" rel="noopener noreferrer">LLMs for Biomedicine</a>.
+
+ <br>
+ <strong>07/2023 </strong> Talk at ISMB/ECCB 2023 <a href="https://www.iscb.org/ismbeccb2023-programme/tracks/text-mining" target="_blank" rel="noopener noreferrer">Text Mining Section</a>.
+
+
+		   <br>
+ <br>
+
+           </div>
+      </div>
+   </article>
+  </div>	  	  
+
+
+	      
+  
+<div class="post">
+  <article>
+    <div class="cv">
+          <h2 id="services"><font size="5" color="#0f4d92"><b>Languages</b></font></h2>
+          <div>
+ 		  <strong>Tutorial Organizer:</strong> ISMB 2024 Tutorial on <a href="https://llm4biomed.github.io/" target="_blank" rel="noopener noreferrer">A Practical Introduction to LLMs in Biomedical Research</a>.
+ <br>
+ 		  <strong>Workshop Organizer:</strong> ICLR 2024 Workshop on <a href="https://llmagents.github.io/" target="_blank" rel="noopener noreferrer">LLM Agents</a>, SIGDIAL/INLG 2023 Workshop on <a href="https://ctrlnlg.github.io/" target="_blank" rel="noopener noreferrer">Taming LLMs</a>.
+ <br>
+ <strong>Conference Program Committee / Reviewer</strong>: NeurIPS, ICML, ACL, EMNLP, CIKM, NAACL, INLG, IEEE BigData, COLM.
+<br>
+ 
+ <strong>Journal Reviewer</strong>: Neurocomputing, BMC Bioinformatics, PLOS ONE, Health Data Science.
+<br>
+ <strong>Workshop Reviewer</strong>: KDD 2023 Workshop on Data Mining in Bioinformatics, ACL 2023 Workshop on Building Educational Apps, ACL 2023 Workshop on Clinical NLP, ICML 2023 Workshop on Neural Conv AI, ICML 2023 Workshop on Interpretable ML in Healthcare, NAACL-HLT 2021 Workshop on Language and Vision Research.
+
+		   <br>
+ <br>
+
+           </div>
+      </div>
+   </article>
+  </div>	  	  
+
+	  
+
+	      
+	    
+
+	      
+	      
+	      
+
+
+</body>
+</html>
+
+<!-- Localized -->
