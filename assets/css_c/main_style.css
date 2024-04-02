@@ -67,7 +67,6 @@ td {          /* for table */
   margin-bottom: 48px;
 }
 .bg {
-  /* background-image:  url('../../images/summer/suc/summer_blur13_opacity26_saturate_more_bright.jpg'); */
   background-color: #f5f5f5;
   background-repeat: no-repeat;
   background-position: center center;
@@ -77,7 +76,7 @@ td {          /* for table */
 #author-avatar {
     height: 150px;
     width: 150px;
-    background-image: url('assets/images/aboutme.jpg');
+    background-image: url('assets/images/profile.jpg');
     background-position: -1px;
     background-size: 150px;
     background-repeat: no-repeat;
