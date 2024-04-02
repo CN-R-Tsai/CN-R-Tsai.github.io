@@ -75,9 +75,9 @@ td {          /* for table */
 }
 
 #author-avatar {
-    height: 140px;
-    width: 140px;
-    background-image: url('../../images/da_pic.jpg');
+    height: 150px;
+    width: 150px;
+    background-image: url('../../images/Aboutme.jpg');
     background-position: -1px;
     background-size: 150px;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ td {          /* for table */
   font-weight: 600;
 }
 .header-text-email {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 15px;
 }
