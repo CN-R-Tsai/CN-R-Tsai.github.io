@@ -44,7 +44,7 @@
 
     }
 
-    function showall(){  
+    function showall() {  
         var items = document.getElementsByClassName('coauthor');
         if(document.getElementById("list_type").text == "Full list"){
             document.getElementById("list_type").text = "Selected";
@@ -110,71 +110,127 @@
 	
 	
 </head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-     <div id='header' class ='bg'>
+<body class="body">
+    <div id='header' class ='bg'>
     <div id='header-inner'>
-      <div id="author-avatar"></div>
-      <div class='header-text'>
-        <div class='header-text-name'>
-            Chung-Nan Tsai <span style="font-family:STFangsong; font-size:24pt"> </span> 👋 Hey there!
+        <div id="author-avatar"></div>
+            <div class='header-text'>
+                <div class='header-text-name'>
+                    Chung-Nan Tsai <span style="font-family:STFangsong; font-size:24pt"> </span> 👋 Hey there!
+                </div>
+                <div class='header-text-email'>
+                <p>Full-Stack Developer</p>
+                <p>Yokkaichi, Mie, Japan 🇯🇵</p>
+                <p>cnrogertsai@gmail.com</p>
+                </div>
+                <div class='header-text-items'></div>
+            </div>
         </div>
-        <div class='header-text-email'>
-          <p>Full-Stack Developer</p>
-          <p>Yokkaichi, Mie, Japan 🇯🇵</p>
-          <p>cnrogertsai@gmail.com</p>
-        </div>
-        <div class='header-text-items'></div>
-      </div>
-    </div>
-  </div>
+   </div>
 
   <div class='container'>
-    <div class='col-xs-1'>
+    <div>
+        <h2 id="papers"><font size="6" color="#0f4d92"><b>About Me</b></font></h2>
+        <p> 
+            I'm <font size="4">Chung-Nan Tsai</font>. I'm a <font size="4">Full-Stack Developer</font> ＆ <font size="4">Data Scientist</font> based at Lam Research from Yokkaichi, Japan. 
+            I work on crafting interactive and user-centric web applications that empower stakeholders to visualize key metrics, enabling actionable insights. 
+            My responsibilities also extend to implementing advanced LLM-powered AI chatbot solutions and driving Digital Transformation initiatives within the organization.
+            I'm a tool builder, enjoy building data tools. 
+            I am a results-driven professional with over <font size="5">+8</font> years of experience in engineering, specializing in <a style="font-style: italic;">data analytics, web application development, and product innovation, as well as customer technical support.</a> 
+            As an innovative software professional, I am driven by the opportunity to create impactful products that positively impact daily lives. I excel in developing and executing targeted initiatives that fuel customer growth, achieve program objectives, and enhance research and development efforts. Always eager to learn and explore new insights from data, I remain committed to contributing to meaningful projects and driving continuous improvement.
+        </p>
     </div>
-    <div class='col-xs-10'>
-      <div class='row'>
-
- <h2 id="papers"><font size="6" color="#0f4d92"><b>About Me</b></font></h2>
- <p> 
-    I'm currently a full-stack developer and senior data scientist and at Lam Research Japan from Yokkaichi, Japan, 
-    where I have demonstrated expertise in developing and leading the design of web applications, 
-    including implementing AI chatbot solutions and spearheading Digital Transformation initiatives. 
-    I am a results-driven professional with over 8 years of experience in engineering, specializing in data analytics, application, and product development, as well as customer technical support. I am highly effective in communication and collaboration, with a proven ability to build long-term relationships by establishing a high level of confidence and trust with stakeholders. As an innovative software developer, I am motivated by the opportunity to build impactful products that positively change people's daily lives. I excel at developing and executing targeted initiatives that drive customer growth, achieve program objectives, and enhance R&D efforts. I am a motivated and lifelong learner, always eager to delve into data to uncover valuable insights and contribute to meaningful projects.
-</p>
 
 	   
-<div>
-    <h2 id="papers"><font size="6" color="#0f4d92"><b>Professional Experience</b></font></h2>
-    <font size="4" color="#0f4d92"><B style="color: #224b8d">Lam Research</B><BR></font>
-    <p> 
-        I am the lead developer in the design and implementation of web applications, from frontend UI to backend API services. My contributions include shipping features to production, such as automated equipment performance monitoring and maintenance log management, which have streamlined operations significantly. These web apps have empowered stakeholders by providing tools to track work hours, equipment health, and productivity, thereby eliminating the need for manual Excel-based processes and reducing flow time by 90%.
-        Additionally, I have developed an LLM AI chatbot solution incorporating cutting-edge methods like LangChain, ChatGPT, and llama, specifically designed for tool maintenance activities. This innovation has resulted in improved operational efficiency through proactive issue identification.
-        My role also extends to spearheading a Digital Transformation initiative, where you collaborated with internal teams to develop automation tools that replaced manual tasks, leading to an annual saving of over 5,500 work hours for the organization. These achievements earned me the Employee of the Quarter award for 2023-2024 in the Japan region, highlighting your impactful contributions and leadership in driving technological advancements and operational excellence.
-    </p>
-    <font size="4" color="#0f4d92"><B style="color: #224b8d">Toyko Electron Limited</B><BR></font>
-    <p>
-        As a Sr. Software Engineer and R developer at Toyko Electron Limited
-        from Sendai, Japan, where I focus on data visualization, data structuring and cleaning, and statistical and machine learning. 
-        I enjoy building data tools. 
-        I use data science to support integrated/intelligent etching system project at Miyagi Technology Innovation Center located in beautiful Tohoku region of Japan.
-        I develop interative and user-friendly web applications using R/Shiny to visualize metrics of interest allowing stakeholders to draw actionable insights.
-    </p>
-    <font size="4" color="#0f4d92"><B style="color: #224b8d">Lam Research</B><BR></font>
-    <p>
-        The team I led in Japan was responsible for developing Lam's equipment intelligence big data analytics platform, focusing on enhancing customers' installed base etch and deposition equipment performance in semiconductor manufacturing. Our work involved analyzing equipment sensor data to improve fleet productivity, uptime, and throughput. Collaborating closely with the R&D team, we deployed and evaluated predictive machine learning models in a high-volume manufacturing environment to identify root causes of equipment failures. This effort resulted in the development of continuous improvement plans (CIPs), which led to a 45% reduction in Mean Time To Repair (MTTR) and up to a 40% increase in tool productivity.
-        Additionally, I designed and developed interactive and user-friendly web applications using Python and R-Shiny to visualize key metrics, enabling stakeholders to derive actionable insights. This initiative significantly boosted performance enhancement across equipment at customer sites by 60%, showcasing the impact of data-driven strategies on operational efficiency. I also played a crucial role in monitoring, maintaining, and troubleshooting Windows/Linux server deployments, performing upgrades, integration, rebuilds, and other necessary projects.
-    </p>
-    <font size="4" color="#0f4d92"><B style="color: #224b8d">ASML</B><BR></font>
-    <p>
-        I managed the development of ASML's optical metrology equipment, which involved providing data insights and recommendations to support strategic decisions, optimize product performance for current and future Overlay/OCD metrology monitoring, and enhance customer satisfaction. This included executing NPI tools’ evaluation projects and designing experiments (DOE) to prove or refute hypotheses for root cause failure analysis, as well as conducting Gage R&R studies.
-        I evaluated the accuracy and measurement capability of current and future overlay, focus, and OCD metrology technology for DRAM, 3D NAND, and 3D XPoint Memory Technology. I worked closely with customers on a daily basis to develop recipes using the world's most advanced metrology equipment for Overlay metrology monitoring, aiding them in improving their semiconductor process yield.
-    </p>
-    <font size="4" color="#0f4d92"><B style="color: #224b8d">KLA-Tencor</B><BR></font>
-    <p>
-        I drove up KLA metrology tool utilization by focusing on high-quality recipe development, optimizing SEM imaging, and engaging deeply with customer metrology teams. These efforts resulted in a significant 30% reduction in cycle time, showcasing the impact of technical expertise and customer engagement in enhancing tool efficiency and performance.
-    </p>
-</div>
+    <div>
+        <h2 id="papers"><font size="6" color="#0f4d92"><b>Professional Experience</b></font></h2>
+        <font size="5"><B><a href="https://lamresearch.com/">Lam Research</a></B></font>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><a style="font-style: italic;">Full-Stack Developer</a></h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <font size="3">Sept 2022-Present</font>
+                <p> 
+                    I am the lead developer in the design and implementation of web applications, from frontend UI to backend API services. My contributions include shipping features to production, such as automated equipment performance monitoring and maintenance log management, which have streamlined operations significantly. These web apps have empowered stakeholders by providing tools to track work hours, equipment health, and productivity, thereby eliminating the need for manual Excel-based processes and reducing flow time by 90%.
+                    Additionally, I have developed an LLM AI chatbot solution incorporating cutting-edge methods like LangChain, ChatGPT, and llama, specifically designed for tool maintenance activities. This innovation has resulted in improved operational efficiency through proactive issue identification.
+                    My role also extends to spearheading a Digital Transformation initiative, where I collaborate with internal teams to develop automation tools that replaced manual tasks, leading to an annual saving of over 5,500 work hours for the organization. These achievements earned me the Employee of the Quarter award for 2023-2024 in the Japan region, highlighting my impactful contributions and leadership in driving technological advancements and operational excellence.
+                </p>
+            </div>
+        </div>
+        <br>
+        <font size="5"><B><a href="https://www.tel.com/">Tokyo Electron Ltd.</a></B></font>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><a style="font-style: italic;">Software Engineer</a></h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <font size="3">Jan 2022-Aug 2022</font>
+                <p>
+                    As a Sr. Software Engineer and R developer at Toyko Electron Limited
+                    from Sendai, Japan, where I focus on data visualization, data structuring and cleaning, and statistical and machine learning. 
+                    I enjoy building data tools. 
+                    I use data science to support integrated/intelligent etching system project at Miyagi Technology Innovation Center located in beautiful Tohoku region of Japan.
+                    I develop interative and user-friendly web applications using R/Shiny to visualize metrics of interest allowing stakeholders to draw actionable insights.
+                </p>
+            </div>
+        </div>
+        <br>
+        <font size="5"><B><a href="https://lamresearch.com/">Lam Research</a></B></font>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><a style="font-style: italic;">Data Scientist</a></h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <font size="3">Mar 2018-Dec 2021</font>
+                <p>
+                    The team I led in Japan was responsible for developing Lam's equipment intelligence big data analytics platform, focusing on enhancing customers' installed base etch and deposition equipment performance in semiconductor manufacturing. Our work involved analyzing equipment sensor data to improve fleet productivity, uptime, and throughput. Collaborating closely with the R&D team, we deployed and evaluated predictive machine learning models in a high-volume manufacturing environment to identify root causes of equipment failures. This effort resulted in the development of continuous improvement plans (CIPs), which led to a 45% reduction in Mean Time To Repair (MTTR) and up to a 40% increase in tool productivity.
+                    Additionally, I designed and developed interactive and user-friendly web applications using Python and R-Shiny to visualize key metrics, enabling stakeholders to derive actionable insights. This initiative significantly boosted performance enhancement across equipment at customer sites by 60%, showcasing the impact of data-driven strategies on operational efficiency. I also played a crucial role in monitoring, maintaining, and troubleshooting Windows/Linux server deployments, performing upgrades, integration, rebuilds, and other necessary projects.
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <font size="5"><B><a href="https://lamresearch.com/">ASML</a></B></font>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><a style="font-style: italic;">Application Development Engineer</a></h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <font size="3">Aug 2016-Oct 2017</font>
+                <p>
+                    I managed the development of ASML's optical metrology equipment, which involved providing data insights and recommendations to support strategic decisions, optimize product performance for current and future Overlay/OCD metrology monitoring, and enhance customer satisfaction. This included executing NPI tools’ evaluation projects and designing experiments (DOE) to prove or refute hypotheses for root cause failure analysis, as well as conducting Gage R&R studies.
+                    I evaluated the accuracy and measurement capability of current and future overlay, focus, and OCD metrology technology for DRAM, 3D NAND, and 3D XPoint Memory Technology. I worked closely with customers on a daily basis to develop recipes using the world's most advanced metrology equipment for Overlay metrology monitoring, aiding them in improving their semiconductor process yield.
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <font size="5"><B><a href="https://lamresearch.com/">KLA-Tencor</a></B></font>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><a style="font-style: italic;">Application Development Engineer</a></h5>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <font size="3">Nov 2013-Nov 2014</font>
+                <p>
+                    I drove up KLA metrology tool utilization by focusing on high-quality recipe development, optimizing SEM imaging, and engaging deeply with customer metrology teams. These efforts resulted in a significant 30% reduction in cycle time, showcasing the impact of technical expertise and customer engagement in enhancing tool efficiency and performance.
+                </p>
+            </div>
+        </div>
+        <br>
+
+    </div>
 
 
 
@@ -186,47 +242,45 @@
     <div class="cv">
           <h2 id="papers"><font size="6" color="#0f4d92"><b>Publications</b></font></h2>
     <div>
-	
-	<UL>
-        <LI>
-        <B style="color: #224b8d">Heterogeneous Student Knowledge Distillation From BERT Using a Lightweight Ensemble Framework</B><BR>
-        Ching-Sheng Lin, <B>Chung-Nan Tsai</B>, Jung-Sing Jwo, Cheng-Hsiung Lee, Xin Wang
-        <BR>IEEE Access, 2024<BR>
-        [<a href="https://ieeexplore.ieee.org/document/10458136">PDF</a>]
-        [<a href="javascript:toggleBibtex('sciagent_abs')" target=_self>Abstract</a>]
-        [<a href="javascript:toggleBibtex('sciagent_bib')" target=_self>Bib</a>]
+	    <UL>
+            <LI>
+            <B style="color: #224b8d">Heterogeneous Student Knowledge Distillation From BERT Using a Lightweight Ensemble Framework</B><BR>
+            Ching-Sheng Lin, <B>Chung-Nan Tsai</B>, Jung-Sing Jwo, Cheng-Hsiung Lee, Xin Wang
+            <BR>IEEE Access, 2024<BR>
+            [<a href="https://ieeexplore.ieee.org/document/10458136">PDF</a>]
+            [<a href="javascript:toggleBibtex('sciagent_abs')" target=_self>Abstract</a>]
+            [<a href="javascript:toggleBibtex('sciagent_bib')" target=_self>Bib</a>]
 
-        <div id=sciagent_abs class=blockcontent style="DISPLAY: none">
-            <table class=imgtable>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p style="FONT-SIZE: 16px">
-                                Deep learning models have demonstrated their effectiveness in capturing complex relationships between input features and target outputs across many different application domains. These models, however, often come with considerable memory and computational demands, posing challenges for deployment on resource-constrained edge devices. Knowledge distillation is a prominent technique for transferring the expertise from an advanced yet heavy teacher model to a more efficient leaner student model. As ensemble methods have exhibited notable enhancements in model generalization and have achieved state-of-the-art performance in various machine learning tasks, we adopt ensemble techniques to perform knowledge distillation from BERT using multiple lightweight student models. Our approach applies lean architectural paradigms of spatial and sequential networks including LSTM, CNN and their fusion to perform data processing from distinct perspectives. Instead of using contextual word representations which require more space in natural language processing applications, we take advantage of a single static pre-trained and low-dimensional word embedding space to be shared among student models. Empirical studies are conducted on the sentiment classification problem and our model outperforms not only other existing techniques but also the teacher model.
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div id=sciagent_abs class=blockcontent style="DISPLAY: none">
+                <table class=imgtable>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p style="FONT-SIZE: 16px">
+                                    Deep learning models have demonstrated their effectiveness in capturing complex relationships between input features and target outputs across many different application domains. These models, however, often come with considerable memory and computational demands, posing challenges for deployment on resource-constrained edge devices. Knowledge distillation is a prominent technique for transferring the expertise from an advanced yet heavy teacher model to a more efficient leaner student model. As ensemble methods have exhibited notable enhancements in model generalization and have achieved state-of-the-art performance in various machine learning tasks, we adopt ensemble techniques to perform knowledge distillation from BERT using multiple lightweight student models. Our approach applies lean architectural paradigms of spatial and sequential networks including LSTM, CNN and their fusion to perform data processing from distinct perspectives. Instead of using contextual word representations which require more space in natural language processing applications, we take advantage of a single static pre-trained and low-dimensional word embedding space to be shared among student models. Empirical studies are conducted on the sentiment classification problem and our model outperforms not only other existing techniques but also the teacher model.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            <div id=sciagent_bib class=blockcontent style="DISPLAY: none">
+                <pre>
+                    @ARTICLE{10458136,
+                        author={Lin, Ching-Sheng and Tsai, Chung-Nan and Jwo, Jung-Sing and Lee, Cheng-Hsiung and Wang, Xin},
+                        journal={IEEE Access}, 
+                        title={Heterogeneous Student Knowledge Distillation From BERT Using a Lightweight Ensemble Framework}, 
+                        year={2024},
+                        volume={12},
+                        number={},
+                        pages={33079-33088},
+                        keywords={Computational modeling;Predictive models;Ensemble learning;Long short term memory;Data models;Context modeling;Semantics;Knowledge discovery;Knowledge transfer;Context awareness;Sentiment analysis;Knowledge distillation;ensemble methods;BERT;LSTM;CNN;contextual word representations;pre-trained and low-dimensional word embedding space;sentiment classification problem},
+                        doi={10.1109/ACCESS.2024.3372568}
+                    }
+                </pre>
             </div>
-        <div id=sciagent_bib class=blockcontent style="DISPLAY: none">
-            <pre>
-                @ARTICLE{10458136,
-                    author={Lin, Ching-Sheng and Tsai, Chung-Nan and Jwo, Jung-Sing and Lee, Cheng-Hsiung and Wang, Xin},
-                    journal={IEEE Access}, 
-                    title={Heterogeneous Student Knowledge Distillation From BERT Using a Lightweight Ensemble Framework}, 
-                    year={2024},
-                    volume={12},
-                    number={},
-                    pages={33079-33088},
-                    keywords={Computational modeling;Predictive models;Ensemble learning;Long short term memory;Data models;Context modeling;Semantics;Knowledge discovery;Knowledge transfer;Context awareness;Sentiment analysis;Knowledge distillation;ensemble methods;BERT;LSTM;CNN;contextual word representations;pre-trained and low-dimensional word embedding space;sentiment classification problem},
-                    doi={10.1109/ACCESS.2024.3372568}
-                }
-            </pre>
-        </div>
-        </LI>
-    </UL>
-
+            </LI>
+        </UL>
 	<UL>
         <LI>
         <B style="color: #224b8d">Predictive Prompts with Joint Training of Large Language Models for Explainable Recommendation</B><BR>
@@ -410,22 +464,19 @@
 
 	  
 
-  <div class="post">     
-    <h2 id="services"><font size="6" color="#0f4d92"><b>Educations</b></font></h2>
-    <p> As an undergrad, I studied at <a href="https://www.ntut.edu.tw/" style:text-underline-position: under> National Taipei University of Technology</a>, 
-        in  Taipei, Taiwan, where I received a B.S in Electrical Engineering. After graduation, I went to US to pursue the M.S. degrees in Electrical and 
-        Computer Science Engineering at <a href="https://www.auburn.edu/" style:text-underline-position: under> Auburn University</a>, Auburn, AL, USA, in 2012 and 
-        <a href="https://oregonstate.edu/" style:text-underline-position: under>Oregon State University</a>, Corvallis, OR, USA, in 2016, separately. 
-    </p>
-  </div>	   
+    <div class="post">     
+        <h2 id="services"><font size="6" color="#0f4d92"><b>Educations</b></font></h2>
+        <p> As an undergrad, I studied at <a href="https://www.ntut.edu.tw/" style:text-underline-position: under> National Taipei University of Technology</a>, 
+            in  Taipei, Taiwan, where I received a B.S in Electrical Engineering. After graduation, I went to US to pursue the M.S. degrees in Electrical and 
+            Computer Science Engineering at <a href="https://www.auburn.edu/" style:text-underline-position: under> Auburn University</a>, Auburn, AL, USA, in 2012 and 
+            <a href="https://oregonstate.edu/" style:text-underline-position: under>Oregon State University</a>, Corvallis, OR, USA, in 2016, separately. 
+        </p>
+    </div>	   
 	    
 
-	      
-	      
-	      
 
-
+    <footer class="footer">
+        <p><small>©2024 Chung-Nan Tsai</small></p>
+    </footer>
 </body>
 </html>
-
-<!-- Localized -->
