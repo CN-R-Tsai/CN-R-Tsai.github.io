@@ -5,6 +5,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 25px; 
 }
 
 b {
@@ -68,7 +69,7 @@ td {          /* for table */
 }
 
 .bg {
-  background-color: #6ce3;
+  background-color: 	#FFFFC9;
   /* background: linear-gradient(45deg, #00d1fa, transparent) #fff5b2; */
   background-repeat: no-repeat;
   background-position: center center;
@@ -130,19 +131,19 @@ td {          /* for table */
 }
 
 .card:hover{
-  box-shadow: 1px 1px 1px #6ce3;    
-  transform: scale(1.05);
-  font-size: 20px;
+  box-shadow: 1px 1px 1px #FF876B;    
+  transform: scale(1.0);
+
 }
 
 
-a {
+.linkColor {
   color: inherit;
   text-decoration: none !important;
 }
 
-a:hover {
-    color:#00A0C6; 
+.linkColor:hover {
+    color:#6ce3c6; 
     text-decoration:none; 
     cursor:pointer;  
 }
@@ -176,7 +177,7 @@ ul.icons a {
   color: #00356b; /* change this */
 }
 ul.icons a:hover {
-  color: #286dc0; /* change this */
+ color: inherit;
 }
 
 ul.icons li {
@@ -209,7 +210,7 @@ ul.icons li {
   }
   .bg {
     /* background-image:  url('../../images/summer/suc/summer_blur13_opacity26_saturate_more_bright.jpg'); */
-    background-color: #6ce3;
+    background-color: #FFFFC9;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 100%;
