@@ -77,11 +77,11 @@ td {          /* for table */
 }
 
 #author-avatar {
-    height: 150px;
-    width: 150px;
-    background-image: url('/assets/images/profile.jpg');
+    height: 160px;
+    width: 160px;
+    background-image: url('/assets/images/profile_new.jpeg');
     background-position: -1px;
-    background-size: 150px;
+    background-size: 160px;
     background-repeat: no-repeat;
     border: 3px white solid;
     margin-left: 150px;
@@ -131,7 +131,7 @@ td {          /* for table */
 }
 
 .card:hover{
-  transform: scale(1.0);
+  transform: scale(1.03);
   box-shadow: 0 0 0 1px #FF876B; 
 }
 
