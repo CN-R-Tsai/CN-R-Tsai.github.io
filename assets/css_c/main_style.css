@@ -131,7 +131,7 @@ td {          /* for table */
 }
 
 .card:hover{
-  transform: scale(1.03);
+  transform: scale(1.05);
   box-shadow: 0 0 0 1px #FF876B; 
 }
 
