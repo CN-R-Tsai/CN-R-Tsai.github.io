@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Chung-Nan Tsai",
+    "label": "Senior Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "cnrogertsai@gmail.com",
+    "phone": "+(81) 70-1447-0210",
+    "url": "https://cn-r-tsai.github.io/",
+    "summary": "Results-driven Data Science leader with over 9 years of progressive experience in data analytics, application and product development, and customer technical support. Proven track record of delivering impactful solutions that enhance operational efficiency and drive customer growth.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +24,46 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Lam Research Japan",
+      "position": "Senior Data Scientist",
+      "url": "https://www.lamresearch.com",
+      "startDate": "2018-03-01",
+      "endDate": "Present",
+      "summary": "Lead data-driven initiatives to enhance productivity, optimize semiconductor equipment performance, and streamline operations. Collaborate cross-functionally to deliver scalable solutions through advanced analytics and intelligent automation.",
+      "highlights": [
+        "Developed interactive web applications to visualize KPIs and reduce manual workflows, cutting process time by 90%",
+        "Led NLP-based solutions for predicting tool maintenance activities using field reports and log data",
+        "Built RAG (Retrieval-Augmented Generation) systems with LLMs to empower engineers with instant access to technical insights",
+        "Helped save over 5,500 work hours annually through automation and data tool development",
+        "Worked closely with cross-functional teams including field engineers, process specialists, and IT"
+      ]
+    },
+    {
+      "name": "ASML US",
+      "position": "Application Development Engineer",
+      "url": "https://www.asml.com",
+      "startDate": "2016-08-01",
+      "endDate": "2018-1-30",
+      "summary": "Worked on the development and optimization of ASML’s optical metrology systems. Delivered data-driven insights and product recommendations to support strategic decisions, improve tool performance, and enhance customer satisfaction.",
+      "highlights": [
+        "Led development of optical metrology applications for Overlay/OCD monitoring",
+        "Provided actionable data analysis to support strategic product and customer decisions",
+        "Collaborated with cross-functional teams to enhance the performance of current and next-generation metrology tools",
+        "Improved customer satisfaction by delivering technical solutions aligned with client needs"
+      ]
+    },
+    {
+      "name": "KLA Taiwan",
+      "position": "Application Development Engineer",
+      "url": "https://www.kla.com",
+      "startDate": "2013-11-01",
+      "endDate": "2015-01-30",
+      "summary": "Developed and optimized KLA’s metrology solutions for leading semiconductor customers. Focused on recipe development, SEM imaging, and technical engagement to improve tool performance and drive manufacturing efficiency.",
+      "highlights": [
+        "Increased metrology tool utilization for TSMC by delivering high-quality recipe development and SEM imaging optimization",
+        "Collaborated closely with TSMC's metrology team to resolve technical challenges and enhance system performance",
+        "Achieved a 30% cycle time reduction, directly contributing to improved IC manufacturing efficiency"
+      ]
     }
   ],
   "volunteer": [
@@ -47,15 +80,39 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Oregon State University",
+      "location": "Corvallis, Oregon, USA",
+      "url": "https://oregonstate.edu/",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Engineering",
+      "startDate": "2015-03-01",
+      "endDate": "2016-12-31",
+      "score": "3.3 / 4.0",
+      "courses": [
+        "Concentration in Computer Systems & Networking"
+      ]
+    },
+    {
+      "institution": "Auburn University",
+      "location": "Auburn, Alabama, USA",
+      "url": "https://www.auburn.edu/",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2010-08",
+      "endDate": "2012-12",
+      "score": "3.67 / 4.0",
+      "courses": [
+        "Concentration in Plasma, Microelectronics & Nanotechnology"
+      ]
+    },
+    {
+      "institution": "National Taipei University of Technology",
+      "location": "Taipei, Taiwan",
+      "url": "https://www.ntut.edu.tw/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-09",
+      "endDate": "2007-06"
     }
   ],
   "awards": [
@@ -136,22 +193,69 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "R"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "SQL (PostgreSQL, MySQL, SQLite, SQL Server)",
+        "NoSQL (MongoDB)"
+      ]
+    },
+    {
+      "name": "Web Frameworks",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Django",
+        "Django REST Framework",
+        "Express.js",
+        "React",
+        "Vue.js",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Docker",
+        "Git",
+        "Linux",
+        "JIRA",
+        "Confluence",
+        "Bitbucket"
+      ]
+    },
+    {
+      "name": "Others",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "RESTful APIs",
+        "JSON",
+        "Bootstrap",
+        "D3.js",
+        "Apache HTTP Server",
+        "LaTeX"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,19 +263,33 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Proficient (JLPT N2)",
+      "icon": ""
+    },
+    {
+      "language": "Korean",
+      "fluency": "Beginner",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "LLM",
+        "Multi-Agent Systems",
+        "AI Safety",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Reinforcement Learning",
+        "Explainable AI",
+        "Automation",
+        "Predictive Analytics"
       ]
     }
   ],

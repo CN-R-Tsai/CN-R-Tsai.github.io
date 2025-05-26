@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Chung-Nan Tsai
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Oregon State University, Corvallis, U.S.A.
+      year: 2000
       description:
         - Description 1.
         - Description 2.
