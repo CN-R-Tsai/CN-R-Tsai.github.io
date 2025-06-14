@@ -25,17 +25,28 @@
   "work": [
     {
       "name": "Lam Research Japan",
-      "position": "Senior Data Scientist",
+      "position": "Sr. Data Scientist",
       "url": "https://www.lamresearch.com",
       "startDate": "2018-03-01",
       "endDate": "Present",
-      "summary": "Lead data-driven initiatives to enhance productivity, optimize semiconductor equipment performance, and streamline operations. Collaborate cross-functionally to deliver scalable solutions through advanced analytics and intelligent automation.",
+      "summary": "Advocating for and leading a cross-regional Digital Transformation (DX) initiative for APAC customer service operations (Japan, China, Taiwan), driving process innovation, enhancing productivity, and achieving operational excellence.",
       "highlights": [
-        "Developed interactive web applications to visualize KPIs and reduce manual workflows, cutting process time by 90%",
-        "Led NLP-based solutions for predicting tool maintenance activities using field reports and log data",
-        "Built RAG (Retrieval-Augmented Generation) systems with LLMs to empower engineers with instant access to technical insights",
-        "Helped save over 5,500 work hours annually through automation and data tool development",
-        "Worked closely with cross-functional teams including field engineers, process specialists, and IT"
+          "As the lead software developer, drove the end-to-end development of an Enterprise Asset Management (EAM) system—from a frontend Single-Page Application (SPA) to a robust Django backend API service following the MVT design pattern—scaling it from 0→1 into a production-ready platform with 500+ daily users across key operational sites.",
+          "Architected and deployed a production system for equipment monitoring and maintenance, transitioning from Excel to digital platforms. This reduced workflow time by 90% and improved operational efficiency by 40%, enabling real-time KPI tracking.",
+          "Developed an LLM-powered AI chat agent for critical tool maintenance, integrating Retrieval-Augmented Generation (RAG) with the LangChain framework to significantly improve diagnostic precision, expedite troubleshooting processes, and reduce equipment downtime.",
+          "Awarded the Employee of the Quarter for 2023-2024 in the Japan region.",
+          "Led a team of 4 in the Japan region for the application development of Lam’s AI data analytics system to improve customers’ installed base etch and deposition equipment performance for fleet productivity, uptime, and throughput via the analysis of equipment sensor data from semiconductor manufacturing equipment."
+        ]
+    },
+    {
+      "name": "Tokyo Electron Ltd",
+      "position": "Sr. Software Engineer",
+      "url": "https://www.tel.com/",
+      "startDate": "2022-01-01",
+      "endDate": "2022-08-30",
+      "summary": "",
+      "highlights": [
+        "Developed high-impact data analytics solutions using Python, R, and KNIME, building interactive dashboards and custom applications to drive data-driven decision-making."
       ]
     },
     {
