@@ -40,7 +40,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-collaborative-paper-a-sequential-multi-stage-approach-for-code-vulnerability-detection-via-confidence-and-collaboration-based-decision-making-has-been-submitted-for-publication-in-the-empirical-methods-in-natural-language-processing-fingers-crossed",
           title: 'Our collaborative paper, A Sequential Multi-Stage Approach for Code Vulnerability Detection via Confidence...',
           description: "",
-          section: "News",},{id: "news-our-paper-leveraging-intra-and-inter-references-in-vulnerability-detection-using-multi-agent-collaboration-based-on-llms-has-been-submitted-to-the-cloud-computing-journal-and-is-currently-under-revision-feeling-optimistic-and-grateful-for-the-valuable-feedback-from-reviewers-we-re-getting-there-stay-tuned-for-more-updates",
+          section: "News",},{id: "news-our-paper-leveraging-intra-and-inter-references-in-vulnerability-detection-using-multi-agent-collaboration-based-on-llms-has-been-submitted-to-the-cluster-computing-journal-and-is-currently-under-revision-feeling-optimistic-and-grateful-for-the-valuable-feedback-from-reviewers-we-re-getting-there-stay-tuned-for-more-updates",
           title: '📝 Our paper, “Leveraging Intra- and Inter-References in Vulnerability Detection Using Multi-Agent Collaboration...',
           description: "",
           section: "News",},{id: "projects-project-1",
